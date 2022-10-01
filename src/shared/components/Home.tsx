@@ -5,7 +5,17 @@ export const Home = () => {
     return (
         <div>
             <h1>Home</h1>
-            <p>{<Button>Teste</Button>}</p>
+            
+            {
+            <Button
+                variant="contained"
+                color="primary"           
+            >
+                Teste
+            </Button>
+            
+            }
+           
         </div>
     );
 }
