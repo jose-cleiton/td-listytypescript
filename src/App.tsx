@@ -1,8 +1,16 @@
 
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
+
+export  const App = () => (
+    <BrowserRouter>
+       <AppRoutes/>
+    </BrowserRouter>
+
+)
 
 
-export  const App = () => <h2>Hello World</h2>
-        
+// Path: src/index.tsx
 
         
     
